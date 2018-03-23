@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="css/swiper.min.css">
+
+  <!-- Demo styles -->
+  <style>
+    html, body {
+      position: relative;
+      height: 100%;
+    }
+    body {
+      background: linear-gradient(to right, #BF2982 -50%, #2e233f 100%);
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color:#000;
+      margin: 0;
+      padding: 0;
+		
+    }
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: linear-gradient(to right, #BF2982 -50%, #2e233f 100%);
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+	  .swiper-pagination{
+		  color: white;
+		  font-size: 35px;
+		  margin-bottom: 39px;
+	  }
+	  
+	  .picture img{
+		  margin-bottom: 100px;
+    	width: 50%;
+	  }
+	  
+	  .caption {
+		      position: absolute;
+    display: block;
+    margin-top: 445px;
+		  font-size: 30px;
+    color: white;
+	  }
+  </style>
+</head>
+<body>
+  <!-- Swiper -->
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+	  <div class="picture">
+	  <img src="images/Nicole Fang/Photos/OJA3-0003.jpg">
+	  </div>
+		<div class="caption">
+		  <a>Level 2<br><br>Frozen Food</a>
+		  </div>
+	  <!--<div class="firstimage">
+	  <img src="images/Nicole Fang/Photos/OJA3-0003.jpg">
+	  </div>
+	  <div class="secondimage">
+	  <img src="images/Nicole Fang/Photos/OJA3-9962.jpg">
+	  </div>-->
+	  </div>
+      <div class="swiper-slide">
+		<div class="picture">
+	  <img src="images/Nicole Fang/Photos/OJA3-9962.jpg">
+	  </div>
+		  <div class="caption">
+		  <a>Level 2<br><br>Milk</a>
+		  </div>
+		</div>
+      <div class="swiper-slide">
+		<div class="picture">
+	  <img src="images/Nicole Fang/Photos/OJA3-9965.jpg">
+	  </div>  <div class="caption">
+		  <a>Level 2<br><br>Frozen Food</a>
+		  </div>
+		</div>
+      <div class="swiper-slide"><div class="picture">
+	  <img src="images/Nicole Fang/Photos/OJA3-9972.jpg">
+	  </div><div class="caption">
+		  <a>Level 2<br><br>Frozen Food</a>
+		  </div>
+		</div>
+      <div class="swiper-slide"><div class="picture">
+	  <img src="images/Nicole Fang/Photos/OJA3-9969.jpg">
+	  </div><div class="caption">
+		  <a>Level 2<br><br>Frozen Food</a>
+		  </div>
+		</div>
+      <div class="swiper-slide"><div class="picture">
+	  <img src="images/Nicole Fang/Photos/OJA3-9863.jpg">
+	  </div><div class="caption">
+		  <a>Level 1<br><br>Pharmacy</a>
+		  </div>
+		</div>
+      <div class="swiper-slide"><div class="picture">
+	  <img src="images/Nicole Fang/Photos/OJA3-9870-2.jpg">
+	  </div><div class="caption">
+		  <a>Level 1<br><br>Supplementary Medicine</a>
+		  </div>
+		</div>
+      <div class="swiper-slide"><div class="picture">
+	  <img src="images/Nicole Fang/Photos/OJA3-9984.jpg">
+	  </div><div class="caption">
+		  <a>Level 2<br><br>Vegetables</a>
+		  </div>
+		</div>
+      <div class="swiper-slide"><div class="picture">
+	  <img src="images/Nicole Fang/Photos/OJA3-9977.jpg">
+	  </div><div class="caption">
+		  <a>Level 2<br><br>Fish Crab</a>
+		  </div>
+		</div>
+      <div class="swiper-slide"><div class="picture">
+	  <img src="images/Nicole Fang/Photos/OJA3-9920.jpg">
+	  </div><div class="caption">
+		  <a>Basement 2<br><br>LED TV</a>
+		  </div>
+		</div>
+		<div class="swiper-slide"><div class="picture">
+	  <img src="images/Nicole Fang/Photos/OJA3-9956.jpg">
+	  </div><div class="caption">
+		  <a>Level 2<br><br>Toilet</a>
+		  </div>
+		</div>
+		<div class="swiper-slide"><div class="picture">
+	  <img src="images/Nicole Fang/Photos/OJA3-9906.jpg">
+	  </div><div class="caption">
+		  <a>Basement 1<br><br>Men's Wear</a>
+		  </div>
+		</div>
+		<div class="swiper-slide"><div class="picture">
+	  <img src="images/Nicole Fang/Photos/OJA3-9929.jpg">
+	  </div><div class="caption">
+		  <a>Basement 2<br><br>Swimming</a>
+		  </div>
+		</div>
+			<div class="swiper-slide"><div class="picture">
+	  <img src="images/Nicole Fang/Photos/OJA3-9936-2.jpg">
+	  </div><div class="caption">
+		  <a>Basement 2<br><br>Helicopters & Barbie dolls</a>
+		  </div>
+		</div>
+				<div class="swiper-slide"><div class="picture">
+	  <img src="images/Nicole Fang/Photos/OJA3-9998-2.jpg">
+	  </div><div class="caption">
+		  <a>Level 2<br><br>Masala Powder</a>
+		  </div>
+		</div>
+					<div class="swiper-slide"><div class="picture">
+	  <img src="images/Nicole Fang/Photos/OJA3-9890.jpg">
+	  </div><div class="caption">
+		  <a>Basement 1<br><br>Rings & Chains</a>
+		  </div>
+		</div>
+						<div class="swiper-slide"><div class="picture">
+	  <img src="images/Nicole Fang/Photos/OJA3-9952.jpg">
+	  </div><div class="caption">
+		  <a>Basement 2<br><br>Elevator to Basement 1</a>
+		  </div>
+		</div>
+    </div>
+	      <div class="swiper-pagination"></div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+
+  <!-- Swiper JS -->
+    <script src="scripts/swiper.min.js"></script>
+ <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+		 pagination: {
+        el: '.swiper-pagination',
+        type: 'fraction',
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+</body>
+</html>
